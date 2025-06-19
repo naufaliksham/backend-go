@@ -52,6 +52,9 @@ File `Cinema.postman_collection.json`
 
 ### 🔐 2. Login
 Endpoint `POST /login`
+
+Jika ingin merubah nama, email, atau password silahkan masuk ke `config/database.go`
+
 Body 
 ```
 {
@@ -65,6 +68,7 @@ Response
     "token": "Bearer <token>"
 }
 ```
+
 
 ### 🪪 3. Gunakan Bearer token untuk endpoint yang butuh auth:
 Masukan Header pada kolom `Authorization`
